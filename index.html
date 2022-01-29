@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Styling Forms</title>
+</head>
+<body>
+    <header>
+        <img src="IMG/logo.png" alt="">
+    </header>
+
+    <form action="">
+        <!-- Gender -->
+        <p>Vous êts...</p>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label><br/>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+
+        <!-- Interest -->
+        <p>Hobbies...</p>
+        <input type="checkbox" name="" id="web">
+        <label for="web">Web developpement</label><br>
+        <input type="checkbox" name="" id="photoshop">
+        <label for="photoshop">Design</label><br>
+        <input type="checkbox" name="" id="madona">
+        <label for="madona">Singing Madona Songs</label>
+
+        <!-- Contact details -->
+        <fieldset>
+            <legend>Contact Info</legend>
+            <input type="email" placeholder="Email" required>
+            <span class="tick"></span>
+            <input type="telephone" placeholder="Phone number" required>
+            <span class="tick"></span>
+        </fieldset>
+
+        <!-- preferred -->
+        <p>Vous voulez être en contact avec nous via quel canal</p>
+        <select>
+            <option value="">By email</option>
+            <option value="">By telephone</option>
+        </select>
+        <input type="submit" value="Être un Ninja">
+
+    </form>
+    
+</body>
+</html>
